@@ -4,4 +4,4 @@ This is my code of the project for Web Development path on CodeCademy where I ex
 
 ### Specifications:
 
-Design website using given specs: 
+Design website using given specs: https://github.com/vshakun/teaCozy_project/blob/master/tea-cozy-spec.jpg
