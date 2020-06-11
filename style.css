@@ -1,0 +1,150 @@
+html, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    height: 69px;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.header img {
+    padding: 0;
+    margin-left: 10px;
+    height: 50px;
+}
+
+.header ul {
+   color: seashell;
+   float: right;
+   text-align: center;
+   margin-right: 10px;
+}
+
+li {
+    color: seashell;
+    display: inline-flex;
+    padding: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+    position: relative;
+}
+
+.banner {
+    background: url("files/images/img-mission-background.jpg");
+    background-size: 110%;
+    width: 90%;
+    height: 700px;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;  
+}
+
+.monthly_tea {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.banner_text {
+    color: seashell;
+    width: 100%;
+    background: #000;
+    align-items: center;
+}
+
+.tea_text {
+    color: seashell;
+    width: 90%;
+    align-self: center;
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#tea_pics {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#tea_pics img {
+    padding: 15px;
+    height: 200px;
+    width: 300px;
+}
+
+h4 {
+    color: seashell;
+    margin-top: 10px;
+}
+
+#locations {
+    color: seashell;
+    background: url("files/images/img-locations-background.jpg");
+    background-size: 110%; 
+    width: 90%;
+    height: 500px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 100px; 
+}
+
+.block {
+    width: 300px;
+    margin: 0px 20px;
+    opacity: 1;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: black;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: seashell;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+}
+
+.footer {
+    max-height: 200px;
+}
+
+.footer h2 {
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+#copyright {
+    float: left;
+    margin-left: 20px;
+}
+
+
+
